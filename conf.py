@@ -4,30 +4,27 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import sys
+
 sys.path.append("./src")
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'mypages'
-copyright = '2022, none'
-author = 'none'
+project = "mypages"
+copyright = "2022, none"
+author = "none"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = [
-    "sphinx.ext.napoleon",
-    "sphinx.ext.autodoc"
-]
+extensions = ["sphinx.ext.napoleon", "sphinx.ext.autodoc", "sphinx.ext.githubpages"]
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme = "alabaster"
+html_static_path = ["_static"]

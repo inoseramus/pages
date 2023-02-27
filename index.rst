@@ -6,6 +6,8 @@
 Welcome to mypages's documentation!
 ===================================
 
+This is a pen.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
